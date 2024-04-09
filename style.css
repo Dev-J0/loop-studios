@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: MyFont;
+    src: url(./images/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: MySecondFont;
+    src: url(./images/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+
+
+
+html {
+    font-family: MyFont;
+}
+
+.header-container{
+    background: url(./images/desktop/image-hero.jpg) no-repeat center;
+    background-size: cover;
+    height: 80vh;
+   object-fit: cover;
+   background-position: center;
+   filter:brightness(65%);
+  
+}
+
+#logo {
+    color: white;
+}
