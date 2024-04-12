@@ -73,3 +73,45 @@ color: white;
     cursor: pointer;
     border-bottom: 1px solid white;
 }
+
+.section-2 {
+    height: 530px;
+    margin: 150px;
+    position: relative;
+}
+
+#VR {
+    height: 530px;
+    width: 700px;
+    position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.second-section2 {
+    width: 600px;
+    height: 300px;
+    z-index: 2;
+    right: 0;
+    bottom: 0;
+    position: absolute; 
+    padding-top: 10px; 
+    background-color: white;
+    padding: 70px;
+    font-size: 18px;
+   
+}
+
+.second-section2 h1 {
+margin-bottom: 20px;
+font-weight: 300;
+font-size: 45px;
+text-transform: uppercase;
+
+}
+
+.second-section2 p {
+    line-height: 25px;
+    color: rgb(104, 102, 102);
+}
