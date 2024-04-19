@@ -115,3 +115,86 @@ text-transform: uppercase;
     line-height: 25px;
     color: rgb(104, 102, 102);
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: auto auto;
+    gap: 30px;
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.grid-item {
+    background-size: cover;
+    background-position: center;
+    min-height: 450px; 
+    color: white;
+    text-transform: uppercase;
+    padding: 350px 20px 20px 30px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    filter: brightness(85%) saturate(128%);
+-webkit-filter: brightness(71%) saturate(128%);
+-moz-filter: brightness(71%) saturate(128%);
+}
+
+
+#grid1 {
+    background-image: url(./images/desktop/image-deep-earth.jpg);
+}
+
+#grid2 {
+    background-image: url(./images/desktop/image-night-arcade.jpg);
+}
+
+#grid3 {
+    background-image: url(./images/pexels-kelly-2935982.jpg);
+}
+
+#grid4 {
+    background-image: url(./images/desktop/image-grid.jpg);
+}
+
+#grid5 {
+    background-image: url(./images/desktop/image-from-above.jpg);
+}
+
+#grid6 {
+    background-image: url(./images/desktop/image-pocket-borealis.jpg);
+}
+
+#grid7 {
+    background-image: url(./images/desktop/image-curiosity.jpg);
+}
+
+#grid8 {
+    background-image: url(./images/desktop/image-fisheye.jpg);
+}
+
+.creations-header {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    margin: 200px 150px 50px 140px;
+    gap: 75%; 
+}
+
+.creations-header a {
+    text-decoration: none;
+border: 1px solid black;
+padding: 20px 25px 20px 25px;
+width: 200px;
+height: 50px;
+font-size: 13px;
+color: black;
+letter-spacing: 3px;
+font-weight: bolder;
+}
+
+#creations-title {
+    width: 550px;
+letter-spacing: 2px;
+  font-size: 55px;
+
+}
