@@ -209,11 +209,13 @@ footer {
     flex-direction: row;
     gap: 50px;
     padding: 30px 50px 30px 50px;
+    
 }
 
 .footer-left {
     width: 40%;
     flex-direction: column;
+    text-decoration: none;
 }
 
 .footer-right {
