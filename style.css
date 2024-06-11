@@ -4,7 +4,14 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
 
+a:visited {
+    color: white;
+    text-decoration: none;
+}
 @font-face {
     font-family: MyFont;
     src: url(./images/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
