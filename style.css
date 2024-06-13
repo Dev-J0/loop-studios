@@ -6,12 +6,14 @@
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 a:visited {
     color: white;
     text-decoration: none;
 }
+
 @font-face {
     font-family: MyFont;
     src: url(./images/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
@@ -214,7 +216,7 @@ footer {
     background-color: black;
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 320px;
     padding: 30px 50px 30px 50px;
     
 }
@@ -226,9 +228,10 @@ footer {
 }
 
 .footer-right {
-    width: 40%;
+    width: 50%;
     display: flex;
   align-items: flex-end;
+  gap: 100px;
 }
 
 .footer-right p{
@@ -253,4 +256,8 @@ footer a:visited {
     position: absolute;
     right: 150px;
     width: 150px;
+}
+
+.icons a{
+    margin: 5px;
 }
